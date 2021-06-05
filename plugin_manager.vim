@@ -46,3 +46,34 @@ syntax enable
 "endif
 
 "End dein Scripts-------------------------
+"
+"
+"
+
+
+
+" Specify a directory for plugins
+" - For Neovim: stdpath('data') . '/plugged'
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin()
+
+" Make sure you use single quotes
+
+
+Plug 'sainnhe/sonokai'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'altercation/vim-colors-solarized'
+" Initialize plugin system
+call plug#end()
+
+"colorscheme
+
+" Important!!
+if has('termguicolors')
+    set termguicolors
+endif
+" The configuration options should be placed before `colorscheme sonokai`.
+let g:sonokai_style = 'maia'
+let g:sonokai_enable_italic = 1
+let g:sonokai_disable_italic_comment = 1
+colorscheme sonokai

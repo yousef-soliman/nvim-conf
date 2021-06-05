@@ -55,5 +55,7 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 
 " AirLine
-let g:airline_theme='solarized_flood'
+let g:airline_theme='sonokai'
 let g:airline#extensions#tabline#enabled = 1
+
+

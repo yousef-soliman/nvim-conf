@@ -2,7 +2,7 @@
 set number
 
 " Highlight text
-syntax on
+syntax enable
 
 filetype plugin indent on
 
@@ -117,3 +117,5 @@ endif
 " nvim
 let g:python3_host_prog = "/home/yousef/.virtualenvs/DEV/bin/python"
 let g:loaded_python_provider = 0
+
+" color
