@@ -33,6 +33,10 @@ call dein#add('deoplete-plugins/deoplete-jedi')
 " javascript
 call dein#add('pangloss/vim-javascript')
 
+" Snips
+call dein#add('SirVer/ultisnips')
+call dein#add('honza/vim-snippets')
+
 " Required:
 call dein#end()
 
@@ -63,6 +67,8 @@ call plug#begin()
 Plug 'sainnhe/sonokai'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'altercation/vim-colors-solarized'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " Initialize plugin system
 call plug#end()
 
@@ -73,7 +79,4 @@ if has('termguicolors')
     set termguicolors
 endif
 " The configuration options should be placed before `colorscheme sonokai`.
-let g:sonokai_style = 'maia'
-let g:sonokai_enable_italic = 1
-let g:sonokai_disable_italic_comment = 1
 colorscheme sonokai
