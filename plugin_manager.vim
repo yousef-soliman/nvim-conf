@@ -69,6 +69,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'altercation/vim-colors-solarized'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'terryma/vim-multiple-cursors'
 " Initialize plugin system
 call plug#end()
 
