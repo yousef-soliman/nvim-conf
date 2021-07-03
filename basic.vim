@@ -19,6 +19,7 @@ set smartindent
 set foldmethod=indent
 set foldlevel=99
 
+nnoremap <space> za
 " Set default text width in screen then take a new line
 set textwidth=80
 

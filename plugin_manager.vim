@@ -22,6 +22,8 @@ call dein#add('vim-airline/vim-airline-themes')
 call dein#add('christoomey/vim-tmux-navigator')
 call dein#add('edkolev/tmuxline.vim')
 call dein#add('jmcantrell/vim-virtualenv')
+call dein#add('tomtom/tcomment_vim')
+call dein#add('sheerun/vim-polyglot')
 
 " linting
 call dein#add('dense-analysis/ale')
@@ -32,6 +34,7 @@ call dein#add('deoplete-plugins/deoplete-jedi')
 
 " javascript
 call dein#add('pangloss/vim-javascript')
+call dein#add('leafgarland/typescript-vim')
 
 " Snips
 call dein#add('SirVer/ultisnips')
