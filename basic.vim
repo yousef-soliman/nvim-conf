@@ -120,3 +120,7 @@ let g:python3_host_prog = "/home/yousef/.virtualenvs/DEV/bin/python"
 let g:loaded_python_provider = 0
 
 " color
+"
+" js
+autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear

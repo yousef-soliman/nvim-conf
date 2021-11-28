@@ -26,11 +26,11 @@ call dein#add('tomtom/tcomment_vim')
 call dein#add('sheerun/vim-polyglot')
 
 " linting
-call dein#add('dense-analysis/ale')
+"call dein#add('dense-analysis/ale')
 
 " Auto complete
-call dein#add('Shougo/deoplete.nvim')
-call dein#add('deoplete-plugins/deoplete-jedi')
+"call dein#add('Shougo/deoplete.nvim')
+"call dein#add('deoplete-plugins/deoplete-jedi')
 
 " javascript
 call dein#add('pangloss/vim-javascript')
@@ -73,6 +73,11 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'jparise/vim-graphql'
+Plug 'mlaursen/vim-react-snippets'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 " Initialize plugin system
 call plug#end()
 
